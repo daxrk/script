@@ -1,0 +1,1 @@
+var items = document.getElementById('menu').getElementsByTagName('li');var hja = document.getElementById('text');var mkkl = document.getElementById('menu');for (i = 0; i < items.length; i++) {items[i].addEventListener('click',schh);}function schh(){for (i = 0; i < items.length; i++) {items[i].classList.remove('bb');}this.classList.add('bb')}
